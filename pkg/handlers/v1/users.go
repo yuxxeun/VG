@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/yuxxeun/VG/pkg/types"
-	"github.com/yuxxeun/VG/pkg/utils"
+	"handler/pkg/types"
+	"handler/pkg/utils"
 )
 
 func GetUsers(w http.ResponseWriter, r *http.Request) {

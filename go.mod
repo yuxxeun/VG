@@ -1,3 +1,3 @@
-module github/yuxxeun/VG
+module handler
 
 go 1.24.1

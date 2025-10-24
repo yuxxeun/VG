@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/yuxxeun/VG/pkg/router"
+	"handler/pkg/router"
 )
 
 func main() {
