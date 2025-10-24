@@ -3,8 +3,8 @@ package v2
 import (
 	"net/http"
 
-	"github.com/yuxxeun/VG/internal/types"
-	"github.com/yuxxeun/VG/internal/utils"
+	"github.com/yuxxeun/VG/pkg/types"
+	"github.com/yuxxeun/VG/pkg/utils"
 )
 
 func GetUsers(w http.ResponseWriter, r *http.Request) {

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/yuxxeun/VG/internal/types"
+	"github.com/yuxxeun/VG/pkg/types"
 )
 
 func SendJSON(w http.ResponseWriter, data interface{}, status int) {

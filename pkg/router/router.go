@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"strings"
 
-	v1 "github.com/yuxxeun/VG/internal/handlers/v1"
-	v2 "github.com/yuxxeun/VG/internal/handlers/v2"
-	"github.com/yuxxeun/VG/internal/middleware"
-	"github.com/yuxxeun/VG/internal/utils"
+	v1 "github.com/yuxxeun/VG/pkg/handlers/v1"
+	v2 "github.com/yuxxeun/VG/pkg/handlers/v2"
+	"github.com/yuxxeun/VG/pkg/middleware"
+	"github.com/yuxxeun/VG/pkg/utils"
 )
 
 func Route(w http.ResponseWriter, r *http.Request) {
